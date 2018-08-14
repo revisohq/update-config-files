@@ -1,0 +1,14 @@
+{
+  "name": "@revisohq/update-web-config",
+  "version": "1.0.0",
+  "description": "Convenience helper for updating web.config values",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "yargs": "^12.0.1"
+  },
+  "author": "Benjamin Horsleben",
+  "license": "WTFPL"
+}
