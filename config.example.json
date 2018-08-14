@@ -27,5 +27,13 @@
         }
       }
     }
-  ]
+  ],
+  "presets": {
+    "main-db": {
+      "db": "some-connection-string"
+    },
+    "single-agreement": {
+      "db": "some-other-connection-string"
+    }
+  }
 }
