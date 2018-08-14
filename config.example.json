@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "file": "core-app/source/Website/Web.Debug.config",
+      "config": {
+        "db": {
+          "type": "appSetting",
+          "key": "MainDbConnString"
+        }
+      }
+    },
+    {
+      "file": "core-app/source/eco.rest/Web.Debug.config",
+      "config": {
+        "db": {
+          "type": "appSetting",
+          "key": "MainDbConnString"
+        }
+      }
+    },
+    {
+      "file": "report-api/Economic.ReportApi/Web.dev.config",
+      "config": {
+        "db": {
+          "type": "connectionString",
+          "key": "MainDatabaseConnectionString"
+        }
+      }
+    }
+  ]
+}
