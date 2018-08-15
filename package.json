@@ -1,5 +1,5 @@
 {
-  "name": "@revisohq/update-web-config",
+  "name": "@revisohq/update-config-files",
   "version": "1.0.0",
   "description": "Convenience helper for updating web.config values",
   "main": "index.js",

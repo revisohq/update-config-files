@@ -1,5 +1,5 @@
-update-web-config
-=================
+update-config-files
+===================
 
 A convenience helper for updating web.config values. It makes it simpler to
 update multiple Web.config files simultaneously.
