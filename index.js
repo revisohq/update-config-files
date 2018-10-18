@@ -74,12 +74,15 @@ default:
 	process.exit(1)
 }
 
+const configPath = path.resolve(args.config)
+const baseRelativePath = path.dirname(configPath)
+
 for(const { file, config } of args.files) {
 	updateFile(file, config, set)
 }
 
 function updateFile(file, config, set) {
-	const filename = file
+	const filename = path.resolve(baseRelativePath, file)
 	const originalContent = fs.readFileSync(filename, 'utf-8')
 	const newContent = Object.entries(set)
 		.reduce((content, [ configKey, newValue ]) => {
